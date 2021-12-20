@@ -11,3 +11,7 @@ p {
 head {
 		background:#CCCCCC;
 }
+
+#protocolos { color: #FF0000;
+		text-align:center;
+	}
