@@ -12,6 +12,33 @@ head {
 		background:#CCCCCC;
 }
 
+.presentation{
+background: #FFFFFF;
+
+}
+#titanfall{
+width : 100%;
+}
+
 #protocolos { color: #FF0000;
 		text-align:center;
+		background:#005555;
 	}
+
+.description{
+background:#FFFFFF
+
+}
+.general-titans{
+background : #FFFFFF;
+
+}	
+#types_of_titans{
+color: #000000;
+font-size:25px;
+}
+
+.titan{
+font-style: italic;
+
+}
