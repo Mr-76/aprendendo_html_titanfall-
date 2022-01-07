@@ -2,8 +2,15 @@
 p strong em{
 	text-align:center;
 	font-size: 40px;
-	color:blue
+	color: #0000CC;
+}
+p{
+	text-align:center;
+	color: #CC0000;
+
 }
 head {
-	background:#CCCCCC
+	background:#CCCCCC;
+
+
 }
