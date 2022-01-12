@@ -13,7 +13,7 @@ def conversion(list_with_lines):
         string_edit = index.replace("/t","")
         string_edit = index.replace('"',"'")
         cpp_string += string_edit
-        print(cpp_string,"DEBUG_______")
+       # print(cpp_string,"DEBUG_______")
     return cpp_string
 
 name = input("Name of the file? ")
@@ -21,7 +21,8 @@ list_lines = open_file(name)
 total_string = conversion(list_lines)
 
         
-
+for i in total_string:
+    print(i)
 print(repr(total_string))
 
 
