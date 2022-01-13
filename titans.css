@@ -5,13 +5,14 @@ header{
 
 .caixa{
 	width:2400px;
-	position:relative;
+   <!--	position:relative; -->
 	margin: 0 auto;
-}
+	margin-left:10px;
+}	
 nav{
 	position:absolute;
 	top:90px;
-	right:0;
+	right:10px;
 
 }
 nav li{
@@ -24,5 +25,44 @@ nav a {
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration:none;
+}
+.produtos{
+	margin: 0 auto;
+	width:940px;
+
+}
+.produtos li {
+	display:inline-block;
+	vertical-align:top;
+	width:30%;
+	text-align:center;
+	margin: 20px 0 0 22px;
+	background-color:#BBBBBB;
+	border: 2px solid #000000;
+	border-radius:30px;
+}
+
+.produtos h2{
+	font-size: 30px;
+	font-weight:bold;
+
+}
+.produtos p {
+	padding:5px 5px;
+	font-style:italic;
+	border:5px 5px 5px 5px;
+}
+
+#produtosimg{
+	width:80%;
+	height: 200px;
+}
+.produtos-descricao{
+	font-size:18px;
+
+}
+.produtos-preco{
+	font-size: 22px;
+	font-weight:bold;
 }
 
