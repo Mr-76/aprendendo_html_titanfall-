@@ -1,0 +1,77 @@
+header{
+	background:#BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa{
+	width:auto;
+	margin: 0 auto;
+	margin-left:10px;
+}	
+nav{
+	position:absolute;
+	top:90px;
+	right:10px;
+
+}
+nav li{
+	display:inline;
+	margin:0 0 0 15px;
+}
+nav a {
+	text-transform: uppercase;
+	color:#000000;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration:none;
+}
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+main{
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+form{
+	margin: 40px 0;
+
+
+}
+
+
+form label{
+	display: block;
+	font-size: 20px;
+	margin:0 0 10px;
+
+}
+form input{
+	display:block;
+	width: 50%;
+	margin:10px;
+	padding: 10px 25px;
+
+}
+
+
+
+footer{
+color:#FFFFFF;
+text-align:center;
+background:url("footer.png");
+padding: 0 0 5% 0;
+}
+
+footer img{
+	padding:10px 0 0 0;
+	width:10%;
+
+}
+footer p {
+padding:3% 0 0 0;
+
+}
+
