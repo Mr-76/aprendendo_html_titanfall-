@@ -13,7 +13,7 @@
 		<header>
 			<div class = "caixa">
 				<h1>
-					<img src = "logo.png" style = "width: 250px;">
+					<img src = "logo.png" style = "width: 250px;" alt="logo TITAN">
 				</h1>
 				<nav>
 					<ul id = "logo_list">
@@ -28,26 +28,28 @@
 		<main>
 			<form>
 				<label for = "nomesobrenome"> Nome e sobrenome </label>
-				<input type = "text" id = "nomesobrenome" class = "input-padrao">
+				<input type = "text" id = "nomesobrenome" class = "input-padrao" required>
 
 				<label for = "email"> Email </label>
-				<input type = "text" id = "email"class = "input-padrao">
+				<input type = "email" id = "email"class = "input-padrao"required placeholder = "seuemail@dominio.com" >
 
 
 				<label for = "Telefone"> Telefone</label>
-				<input type = "text" id = "Telefone"class = "input-padrao">
+				<input type = "tel" id = "Telefone"class = "input-padrao"required placeholder = "DDD-9TEL">
 				
 				<label for = "mensagem">Mensagem</label>
-				<textarea cols = "70" rows = "10" id = "mensagem"class = "input-padrao"> </textarea>
-				<div>
-					<p>Como prefere o contato?</p>
+				<textarea cols = "70" rows = "10" id = "mensagem"class = "input-padrao"required> </textarea>
+			
+				
+				<fieldset>
+					<legend>Como prefere o contato?</legend>
 					<label for = "radio-email"><input type = "radio" name = "contato" value = "email" 
 						id = "radio-email"> Email</label>
 					<label for = "radio-telefone"><input type = "radio"  name = "contato" value = "telefone" 
 						id = "radio-telefone">Telefone</label>
 					<label for = "radio-face"><input type = "radio" name = "contato" value = "face" 
-						id = "radio-face">Face</label>
-				</div>
+						id = "radio-face" checked>Face</label>
+				</fieldset>
 
 				<div>
 					<select>
@@ -57,13 +59,41 @@
 					</select>
 				</div>
 
-				<label class = ".checkbox"><input type = "checkbox">Gostaria de receber novidades?</label>
+				<label class = "checkbox"><input type = "checkbox" checked>Gostaria de receber novidades?</label>
 
-				<input type = "submit" value = "Enviar formulario">
+				<input type = "submit" value = "Enviar formulario" class = "enviar">
 			</form>
+			
+			<table>
+				<thead>
+					<tr>
+
+						<th>dia</th> 
+						<th>horario</th> 
+					</tr>      
+
+				</thead>
+
+				<tbody>
+				<tr>
+					<td colspan = "2">|segunda  8h-16h|</td>
+
+				</tr>
+				
+				<tr>
+					<td colspan = "2">|quarta  8h-16h|</td>
+				</tr>
+				
+				<tr>	
+					<td colspan = "2">|sexta  8h-16h|</td>
+				</tr>
+				</tbody>
+			</table>
+
+
 		</main>
 		<footer>
-			<img src = "logo.png">
+			<img src = "logo.png"alt="logo TITAN">
 
 			<p class = "copyright">&copy; copyright<p>
 		</footer>
