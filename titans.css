@@ -37,7 +37,7 @@ nav a:hover {
 	display:inline-block;
 	vertical-align:top;
 	text-align:center;
-	margin: 20px 1.5%;
+	margin: 10px;
 	padding:30px 20px;
 	
 	background-color:#BBBBBB;
@@ -88,8 +88,7 @@ nav a:hover {
 }
 
 #produtosimg{
-	width:284px;
-	height: 200px;
+	width:100%;
 }
 
 footer{

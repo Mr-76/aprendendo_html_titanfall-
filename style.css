@@ -1,5 +1,5 @@
 .html_pg{
-	background:linear-gradient(white,gray);
+	background:linear-gradient(#EEEEEE,gray);
 
 }
 body{
@@ -116,6 +116,10 @@ font-style: italic;
 font-size:25px;
 
 }
+
+.titan:before{
+content: "★";
+}
 .titanlist{
 width:60%;
 float:left;
@@ -143,4 +147,17 @@ footer p {
 padding:3% 0 0 0;
 
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 0px) 
+and (max-device-width : 720px) {
+/* Styles */
+.youtube1{
+	width:100%;
+	position:initial;
+}
+nav a{
+	font-size:initial;
+}
 
+}
