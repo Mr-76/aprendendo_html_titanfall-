@@ -1,0 +1,34 @@
+@media screen and (max-width: 480px ){
+	.titulo_principal{
+		text-align:center;
+		padding-left: 0px;
+	}
+	
+	.logo{
+		width:20%;
+		display:block;
+		margin: 0px auto 0px auto;
+	}
+	.caixa {
+		margin:0px;
+	}	
+	nav{
+		position:initial;
+	}
+	nav a{
+		font-size:15px;
+	
+	}	
+	.youtube1{
+		width:100%;
+		position: initial;	
+	}
+	.titanlist{
+		width:60%;
+		float:right;
+	}
+	.nav{
+		position:initial;
+	}
+}
+

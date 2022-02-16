@@ -74,15 +74,15 @@ width : 100%;
 }
 
 #protocolos { 
+	box-shadow: -10px -10px #000000;
 	opacity:0.1;
 	display:inline-block;
 	color: #000000;
 	text-align:center;
 	background:#005555;
-	margin-right:0px;
-	margin-left:0px;
 	padding-bottom:20px;
 	font-size:25px;
+	margin: 10px 0px 0px 0px;
 }
 
 #protocolos:hover{
@@ -149,4 +149,3 @@ footer p {
 padding:3% 0 0 0;
 
 }
-
