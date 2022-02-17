@@ -1,4 +1,23 @@
-@media screen and (max-width: 480px ){
+@media screen and (max-width: 600px ){
+/* contato */ 
+	.main_contato{
+		width:100%;
+	}
+	.logo{
+		width:20%;
+		display:block;
+		margin: 0px auto 0px auto;
+	}
+	nav{
+		position:initial;
+	}
+
+	#logo_list{
+		text-align:center;
+	}
+	
+	
+/*  home  */	
 	.titulo_principal{
 		text-align:center;
 		padding-left: 0px;
