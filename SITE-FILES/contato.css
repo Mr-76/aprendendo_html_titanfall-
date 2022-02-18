@@ -68,18 +68,3 @@ td,th{
 }
 
 
-footer{
-color:#FFFFFF;
-text-align:center;
-background:url("footer.png");
-padding: 0 0 5% 0;
-}
-
-footer img{
-	padding:10px 0 0 0;
-	width:10%;
-
-}
-footer p {
-padding:3% 0 0 0;
-}

@@ -1,48 +1,14 @@
-header{
-background-color:#BBBBBB;
-padding:20px 0;
-
-}
-
-nav{
-position: absolute;
-top:90px;
-right:40px;
-}
-
-nav li{
-display:inline;
-margin: 0 0 0 15px;
-}
-
-nav a{
-
-color:#000000;
-text-transform:uppercase;
-text-decoration:none;
-font-size:20px;
-font-weight:bold;
-}
-
-nav a:hover{
-	text-decoration:underline;
-	color:#C78C19;
-
-}
-nav a:active{
-	color:#0000FF;
-}
 .titans{
-float:left;
-padding:10px 0 0 10px ;
+/*! float:left; */
+/*! padding:10px 0 0 10px ; */
 
 }
 
 
 .titans img{
-	width:30%;
-	float:left; 
-	clear:right;
+	/*! width:30%; */
+	/*! float:left; */ 
+	/*! clear:right; */
 }
 
 .titans p{
