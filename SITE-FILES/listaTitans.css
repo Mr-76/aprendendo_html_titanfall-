@@ -1,17 +1,12 @@
-.titans{
-/*! float:left; */
-/*! padding:10px 0 0 10px ; */
 
+section p {
+	display:inline;
+	vertical-align:top;
+
+}
+.bloco_titans{
+}
+.bloco_titans img{
 }
 
 
-.titans img{
-	/*! width:30%; */
-	/*! float:left; */ 
-	/*! clear:right; */
-}
-
-.titans p{
-<!--padding:10px 0 0 270px;-->
-
-}
