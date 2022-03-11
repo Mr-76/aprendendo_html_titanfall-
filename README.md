@@ -2,5 +2,5 @@
 Fazendo um site,exercitando
 
 - [ ] paginas individuais dos titans
-- [ ] home organizada
+- [x] home organizada
 - [ ] animaçao na pagina
