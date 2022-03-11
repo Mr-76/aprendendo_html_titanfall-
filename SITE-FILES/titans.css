@@ -28,7 +28,8 @@
 	border-color: #0088FF;
 
 }
-.produtos li:hover h2 {
+.produtos li:hover h2 a {
+	color:#FFFFFF;
 	font-size: 34px;
 
 }
@@ -41,6 +42,11 @@
 	font-size: 30px;
 	font-weight:bold;
 
+}
+
+.produtos h2 a{
+	text-decoration:none;
+	color:#000000;
 }
 
 .produto-descricao  {

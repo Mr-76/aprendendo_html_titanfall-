@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px ){
+@media screen and (max-width: 1200px ){
 /* contato */ 
 	.main_contato{
 		width:100%;
@@ -36,6 +36,13 @@
 	}
 	nav a{
 		font-size:15px;
+	
+	}
+	
+	.produtos li{
+		display:list-item;
+		width:auto;	
+	
 	
 	}	
 	.youtube1{
