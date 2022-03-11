@@ -11,46 +11,6 @@ header{
 	padding: 20px 0;
 }
 
-.titulo_principal{
-padding-left:10%;
-font-size: 40px;
-}
-.caixa{
-	width:auto;
-	margin: 0 auto;
-	margin-left:10px;
-}
-
-nav{
-position: absolute;
-top:90px;
-right:40px;
-}
-
-nav li{
-display:inline;
-margin: 0 0 0 15px;
-}
-
-nav a{
-
-color:#000000;
-text-transform:uppercase;
-text-decoration:none;
-font-size:20px;
-font-weight:bold;
-}
-
-nav a:hover{
-	text-decoration:underline;
-	color:#C78C19;
-
-}
-nav a:active{
-	color:#0000FF;
-}
-
-
 
 p strong em{
 	text-align:center;
@@ -74,15 +34,15 @@ width : 100%;
 }
 
 #protocolos { 
+	box-shadow: -10px -10px #000000;
 	opacity:0.1;
 	display:inline-block;
 	color: #000000;
 	text-align:center;
 	background:#005555;
-	margin-right:0px;
-	margin-left:0px;
 	padding-bottom:20px;
 	font-size:25px;
+	margin: 10px 0px 0px 0px;
 }
 
 #protocolos:hover{
@@ -129,24 +89,6 @@ float:left;
 .youtube1{
 position:absolute;
 width:50%;
-
-}
-
-
-footer{
-color:#FFFFFF;
-text-align:center;
-background:url("footer.png");
-padding: 0 0 5% 0;
-}
-
-footer img{
-	padding:10px 0 0 0;
-	width:10%;
-
-}
-footer p {
-padding:3% 0 0 0;
 
 }
 

@@ -1,0 +1,60 @@
+@media screen and (max-width: 1200px ){
+/* contato */ 
+	.main_contato{
+		width:100%;
+	}
+	.logo{
+		width:20%;
+		display:block;
+		margin: 0px auto 0px auto;
+	}
+	nav{
+		position:initial;
+	}
+
+	#logo_list{
+		text-align:center;
+	}
+	
+	
+/*  home  */	
+	.titulo_principal{
+		text-align:center;
+		padding-left: 0px;
+	}
+	
+	.logo{
+		width:20%;
+		display:block;
+		margin: 0px auto 0px auto;
+	}
+	.caixa {
+		margin:0px;
+	}	
+	nav{
+		position:initial;
+	}
+	nav a{
+		font-size:15px;
+	
+	}
+	
+	.produtos li{
+		display:list-item;
+		width:auto;	
+	
+	
+	}	
+	.youtube1{
+		width:100%;
+		position: initial;	
+	}
+	.titanlist{
+		width:60%;
+		float:right;
+	}
+	.nav{
+		position:initial;
+	}
+}
+

@@ -1,51 +1,28 @@
-header{
-background-color:#BBBBBB;
-padding:20px 0;
+
+ul li{
+	display:inline;
+
+
 
 }
 
-nav{
-position: absolute;
-top:90px;
-right:40px;
+.bloco_desc_t{
+	display:inline-block;
+	border:3px solid #FF0000;
+	margin:10px;
+	background-color:#000000;
+	padding:10px;
+	border-radius:20px;
 }
-
-nav li{
-display:inline;
-margin: 0 0 0 15px;
+section p {
+	display:inline-block;
+	vertical-align:top;
+	color:#FFFFFF;
+	font-size:20px;
 }
-
-nav a{
-
-color:#000000;
-text-transform:uppercase;
-text-decoration:none;
-font-size:20px;
-font-weight:bold;
+.bloco_titans{
 }
-
-nav a:hover{
-	text-decoration:underline;
-	color:#C78C19;
-
-}
-nav a:active{
-	color:#0000FF;
-}
-.titans{
-float:left;
-padding:10px 0 0 10px ;
-
+.bloco_titans img{
 }
 
 
-.titans img{
-	width:30%;
-	float:left; 
-	clear:right;
-}
-
-.titans p{
-<!--padding:10px 0 0 270px;-->
-
-}
