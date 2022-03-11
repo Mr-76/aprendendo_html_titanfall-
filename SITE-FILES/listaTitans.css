@@ -1,8 +1,23 @@
 
-section p {
+ul li{
 	display:inline;
-	vertical-align:top;
 
+
+
+}
+
+.bloco_desc_t{
+	display:inline-block;
+	border:3px solid #FF0000;
+	margin:10px;
+	background-color:#000000;
+	padding:10px;
+	border-radius:20px;
+}
+section p {
+	display:inline-block;
+	vertical-align:top;
+	color:#FFFFFF;
 }
 .bloco_titans{
 }
